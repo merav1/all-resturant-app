@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="ראשי"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/panier"
+        android:title="סל קניות"
+        android:icon="@drawable/panier"/>
+
+    <item
+        android:id="@+id/favorit"
+        android:title="המועדפים שלי"
+        android:icon="@drawable/star"/>
+
+    <item
+        android:id="@+id/profil"
+        android:title="הפרופיל שלי"
+        android:icon="@drawable/person"/>
+
+</menu>

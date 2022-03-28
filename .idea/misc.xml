@@ -3,17 +3,63 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/drawable-anydpi/favorit.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/drawable-anydpi/favorit_border.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/drawable-anydpi/shop.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/drawable/call.xml" value="0.18020833333333333" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/drawable/ic_baseline_navigate_before_24.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/drawable/icon.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/drawable/log.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/drawable/shop.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/drawable/timer.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/font/an.xml" value="0.6" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/a_pop.xml" value="0.109375" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/activity_all_resto.xml" value="0.10625" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/activity_branche.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/activity_category.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/activity_detail.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/activity_favorit.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/activity_main.xml" value="0.10126582278481013" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/activity_main1.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/activity_main_all_branches.xml" value="0.109375" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/activity_menu_bar.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/activity_panier.xml" value="0.10126582278481013" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/activity_pop_windows.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/activity_registration.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/activity_signup.xml" value="0.109375" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/activity_tafrit.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/all_branches_item.xml" value="0.1203125" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/anim.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/b.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/barcode.xml" value="0.1" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/bb.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/essai.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/essia.xml" value="0.165625" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/item.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/item2.xml" value="0.1" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/item_all_restos.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/item_branche.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/item_camera.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/item_category.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/item_contact.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/item_detail.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/item_favorit.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/item_panier.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/item_paniers.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/item_pop_windows.xml" value="0.22" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/item_profil_login.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/item_profil_signin.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/item_tafrit.xml" value="0.1" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/landwer.xml" value="0.1796875" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/login.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/pop.xml" value="0.109375" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/layout/register.xml" value="0.1" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.19583333333333333" />
-        <entry key="..\:/Users/student/Desktop/allrestaurant/app/src/main/res/layout/activit_main_all_branches.xml" value="0.10144927536231885" />
-        <entry key="..\:/Users/student/Desktop/allrestaurant/app/src/main/res/layout/activity_main_all_branches.xml" value="0.22" />
-        <entry key="..\:/Users/student/Desktop/allrestaurant/app/src/main/res/layout/all_branches_item.xml" value="0.22" />
-        <entry key="..\:/Users/student/Desktop/allrestaurant/app/src/main/res/layout/bb.xml" value="0.14221014492753623" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/mipmap-anydpi-v26/person.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/allrestaurant4/app/src/main/res/mipmap-anydpi-v26/person_round.xml" value="0.12552083333333333" />
       </map>
     </option>
   </component>
@@ -26,7 +72,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.10126582278481013" />
+        <option name="scale" value="0.1" />
       </ProjectState>
     </option>
   </component>

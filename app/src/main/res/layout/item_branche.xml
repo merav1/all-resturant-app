@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardBranche"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="5dp"
+    android:elevation="8dp"
+    app:cardMaxElevation="10dp"
+    app:cardCornerRadius="8dp">
+
+    <RelativeLayout
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:outlineSpotShadowColor="@color/black">
+
+        <ImageButton
+            android:id="@+id/hets"
+            android:layout_width="30dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/transparent"
+            android:src="@drawable/hetz" />
+        <!--text view for displaying City-->
+        <TextView
+            android:id="@+id/City"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="עיר"
+            android:textColor="#050505"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <!--text view for displaying address-->
+        <TextView
+            android:id="@+id/Address"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/City"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="כתובת"
+            android:textColor="#050505"
+            android:textSize="24sp"
+            tools:ignore="TextContrastCheck" />
+
+        <!--text view for displaying user email-->
+        <Button
+            android:id="@+id/Phone"
+            android:autoLink="phone"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/Address"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/transparent"
+            android:text="טלפון"
+            android:drawableRight="@drawable/call"
+            android:padding="-10dp"
+            android:drawablePadding="0dp"
+            android:textColor="#FF9800"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/OpenIn"
+            android:layout_width="340dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/Phone"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:drawableRight="@drawable/time"
+            android:padding="-10dp"
+            android:drawablePadding="10dp"
+            android:text="פתוח"
+            android:textColor="#FF9800"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

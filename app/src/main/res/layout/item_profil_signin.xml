@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:scaleType="fitXY"
+        android:text="הרשמה"
+        android:textSize="80dp"
+        android:layout_marginLeft="-130dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:textSize="40dp"
+        android:hint="שם משתמש" />
+
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_name"
+        android:layout_marginTop="40dp"
+        android:textSize="40dp"
+        android:hint="טלפון"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_name"
+        android:layout_marginTop="40dp"
+        android:textSize="40dp"
+        android:hint="סיסמא"/>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/black"
+        android:text="הרשם"
+        android:textColor="@android:color/white"/>
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/activity_menu_bar"/>
+</LinearLayout>

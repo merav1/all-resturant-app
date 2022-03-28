@@ -1,6 +1,4 @@
-package is.gravendef.allrestaurant;
-
-
+package is.gravendef.allrestaurant.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -23,8 +21,13 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.concurrent.ExecutionException;
+
+import is.gravendef.allrestaurant.R;
+import is.gravendef.allrestaurant.activity.MainActivity;
+import is.gravendef.allrestaurant.activity.MainBranches;
+import is.gravendef.allrestaurant.activity.MainCategory;
+import is.gravendef.allrestaurant.modal.allResto;
 
 public class allRestoAdapter extends
         RecyclerView.Adapter<allRestoAdapter.ViewHolder> {
@@ -33,22 +36,17 @@ public class allRestoAdapter extends
 
     // Store a member variable for the contacts
     private ArrayList<allResto> mallRestos;
-    private ArrayList<allResto> name1;
     private Context mcontext;
-    //private String name;
-
-
 
     // Pass in the contact array into the constructor
 
-    public allRestoAdapter(ArrayList<allResto> allRestos, ArrayList<allResto> name1, Context mcontext) {
+    public allRestoAdapter(ArrayList<allResto> allRestos, Context mcontext) {
         this.mallRestos = allRestos;
-        this.name1 = name1;
         this.mcontext=mcontext;
     }
 
 
-    public void downloadImage(String url, ImageView imageview)
+    public void downloadImage(String url, ImageView imageview,String resturantName)
     {
 
         Log.i("Button","Tapped");
@@ -57,14 +55,15 @@ public class allRestoAdapter extends
         Bitmap result = null;
         try {
             result = task.execute(url).get();
-           // result = task.execute(name).get();
+            // result = task.execute(name).get();
         }
         catch (InterruptedException | ExecutionException e) {
             e.printStackTrace();
         }
         imageview.setImageBitmap(result);
         imageview.setOnClickListener(v -> {
-            Intent intent = new Intent(mcontext, MainActivity.class);
+            Intent intent = new Intent(mcontext, MainBranches.class);
+            intent.putExtra("resturantName",resturantName);
             mcontext.startActivity(intent);
         });
 
@@ -111,25 +110,26 @@ public class allRestoAdapter extends
 
         // Inflate the custom layout
         View v = inflater.inflate(R.layout.item_all_restos, parent, false);
-
         // Return a new holder instance
         ViewHolder viewHolder = new ViewHolder(v);
         return viewHolder;
     }
-
     // Involves populating data into the item through holder
     @Override
-    public void onBindViewHolder(allRestoAdapter.ViewHolder holder, int position) {
+    public void onBindViewHolder(ViewHolder holder, int position) {
+
         // Get the data model based on position
         allResto allRestos = mallRestos.get(position);
-        //allResto name = name1.get(position);
-       // holder.name.setText(name1.get(position));
-        allRestos.setImage(holder.imageView);
-        //name1.setText(holder.textView);
+        allRestos.setImageButton(holder.imageButton);
+        allRestos.setTextView(holder.textView);
+        String name=allRestos.getUrl();
         String url=allRestos.getName();
-        ImageView imageview = holder.imageView;
+        ImageButton imageButton = holder.imageButton;
+        TextView textView = holder.textView;
+        textView.setText(name);
+
         try{
-            downloadImage(url,imageview);
+            downloadImage(url,imageButton,name);
         }
         catch (Exception e){
             Log.d("set Image failed","set Image failed");
@@ -148,8 +148,8 @@ public class allRestoAdapter extends
     public class ViewHolder extends RecyclerView.ViewHolder {
         // Your holder should contain a member variable
         // for any view that will be set as you render a row
-        public ImageButton imageView;
-        public TextView name;
+        public ImageButton imageButton;
+        public TextView textView;
 
         // We also create a constructor that accepts the entire item row
         // and does the view lookups to find each subview
@@ -157,12 +157,8 @@ public class allRestoAdapter extends
             // Stores the itemView in a public final member variable that can be used
             // to access the context from any ViewHolder instance.
             super(itemView);
-            imageView= itemView.findViewById(R.id.image);
-            name= itemView.findViewById(R.id.name_resto);
-
-
-
-
+            imageButton= itemView.findViewById(R.id.image);
+            textView= itemView.findViewById(R.id.name_resto);
         }
     }
 }

@@ -1,19 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="is.gravendef.allrestaurant">
-    <!--permissions for INTERNET-->
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
 
     <application
+
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        tools:replace="android:appComponentFactory,android:theme"
+        android:appComponentFactory="whateverString"
+
         android:theme="@style/Theme.Allrestaurant">
-        <activity android:name=".bb"></activity>
-        <activity android:name=".MainActivity"
+        <activity android:name=".activity.specificResto"></activity>
+        <activity android:name=".activity.MainDetail"></activity>
+        <activity android:name=".activity.MainTafrits"></activity>
+        <activity android:name=".activity.MainCategory"></activity>
+        <activity android:name=".activity.MainBranches"></activity>
+        <activity android:name=".activity.MainPaniers"></activity>
+        <activity android:name=".activity.MainProfil"></activity>
+        <activity android:name=".activity.MainProfil1"></activity>
+        <activity android:name=".activity.MainCamera"></activity>
+        <activity android:name=".activity.Barcode"></activity>
+        <activity android:name=".activity.MainFavorit"></activity>
+        <activity android:name=".activity.login"></activity>
+        <activity android:name=".activity.register"></activity>
+        <activity android:name=".activity.MainAllResto"></activity>
+        <activity android:name=".activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
